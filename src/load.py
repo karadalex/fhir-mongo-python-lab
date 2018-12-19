@@ -4,7 +4,7 @@ from pymongo import MongoClient
 
 
 client = MongoClient('mongodb://root:example@localhost:27017/')
-db = client.test_database
+db = client.fhir
 fhir = db.fhir
 
 os.chdir('./data')
